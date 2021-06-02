@@ -108,6 +108,7 @@ header {
   padding-left: 16px;
   display: flex;
   overflow: auto;
+  margin-bottom: 20px;
 }
 .story {
   flex:0 0 80px;
@@ -126,4 +127,18 @@ header {
 }
 .story p {
   font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+.post-container {
+  background-color: white;
+  border: 1px solid #EAEAEA;
 }
