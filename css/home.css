@@ -176,6 +176,9 @@ header {
 .post-content img {
   width: 100%;
 }
+.post-content video {
+  width: 100%;
+}
 
 
 
