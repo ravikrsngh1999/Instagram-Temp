@@ -48,16 +48,82 @@ header {
   outline: 1px solid rgba(0, 0, 0, 0.3);
 }
 
+.header-btns {
+  display: flex;
+  align-items:center;
+}
+
 .header-box button {
   background: transparent;
   border: none;
-  height: 22px;
+  height: 25px;
   margin: 0 10px;
 }
-.header-box button img {
+.header-box a {
+  margin: 0 10px;
+}
+.header-box img {
   height: 25px;
-
 }
 #profile-btn {
   border-radius: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+  max-width: 935px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  margin-top: 30px;
+}
+/*
+.main-1 {
+  flex:0 0 65%;
+}
+.main-2 {
+  flex:0 0 35%;
+}
+*/
+
+.stories-container {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #EAEAEA;
+  padding: 16px 0;
+  padding-left: 16px;
+  display: flex;
+  overflow: auto;
+}
+.story {
+  flex:0 0 80px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.story img {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  margin-bottom: 6px;
+}
+.story p {
+  font-size: 12px;
 }
