@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #FAFAFA;
+}
+.b {
+  border: 1.5px solid red;
+}
+
+
+
+
+
+
+
+
+.main {
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 935px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+
+.main-content-1 {
+  padding: 15px;
+}
+.main-content-1 img {
+  width: 100%;
+}
