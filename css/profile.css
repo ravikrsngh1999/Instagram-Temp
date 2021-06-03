@@ -1,0 +1,59 @@
+.main {
+	display: block;
+}
+
+section.profile {
+	display: flex;
+}
+
+.profile-img-container {
+	flex: 1;
+}
+
+.profile-info-container {
+	flex: 2;
+}
+
+.profile-img-container > img {
+	margin: 0 auto;
+	display: block;
+
+	border-radius: 50%;
+}
+
+.profile-info-container > div {
+	display: flex;
+	gap: 30px;
+
+	margin-bottom: 30px;
+	align-items: center;
+}
+
+.profile-info-container > div.row-3 {
+	flex-direction: column;
+	gap: 10px;
+	align-items: flex-start;
+}
+
+.row-1 > h4 {
+	font-size: 28px;
+	font-weight: 300;
+}
+
+.row-1 > button {
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.row-2 {
+	font-size: 28px;
+}
+
+.row-2 > h6 {
+	font-weight: 400;
+}
+
+.row-2 span {
+	font-weight: 600;
+}
