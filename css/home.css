@@ -17,6 +17,7 @@ a {
 button {
   background: transparent;
   border: none;
+  outline:none;
 }
 
 
@@ -27,6 +28,9 @@ header {
   height: 54px;
   background-color: white;
   border-bottom: 1px solid #eaeaea;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 .header-box {
   max-width: 935px;
@@ -93,7 +97,8 @@ header {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 65% 35%;
-  margin-top: 30px;
+  margin-top: 84px;
+
 }
 /*
 .main-1 {

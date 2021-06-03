@@ -94,6 +94,7 @@ header {
 
 .main-1 {
   flex:0 1 65%;
+  min-width: 10px;
 }
 .main-2 {
   flex:0 0 35%;
