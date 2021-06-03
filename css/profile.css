@@ -57,3 +57,40 @@ section.profile {
 .row-2 span {
 	font-weight: 600;
 }
+
+.posts {
+	margin-top: 120px;
+}
+
+.posts > .post-navbar {
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+
+	border-top: 1px solid #d1d1d1;
+}
+
+.post-navbar span {
+	text-transform: uppercase;
+	color: #7a7a7a;
+
+	padding-top: 15px;
+}
+
+span.active-nav-btn {
+	color: black;
+	border-top: 1px solid black;
+}
+
+.img-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+}
+
+.img-wrapper > img {
+	width: 100%;
+}
