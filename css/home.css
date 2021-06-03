@@ -79,9 +79,40 @@ header {
 
 
 
+/* Menu Box */
 
-
-
+.menu-container {
+  width: 100%;
+  position:fixed;
+  top: 0;
+  left: 0;
+}
+.menu-container > div {
+  width: 100%;
+  max-width: 935px;
+  margin: 0 auto;
+  position: relative;
+}
+.menu-box {
+  background-color: white;
+  width: 230px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  display: none;
+}
+.menu-box a {
+  display: block;
+  padding: 12px 20px;
+}
+.menu-box a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.menu-box a:last-child {
+  border-top: 1px solid #eaeaea;
+}
 
 
 
