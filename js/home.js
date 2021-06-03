@@ -11,6 +11,12 @@ for (var i = 0; i < element.length; i++) {
 }
 
 function like(e){
-  e.target.src = "img/liked.png"
-  console.log(e.target.src)
+  var s = e.target.src
+  if (s.includes('liked.png')) {
+    console.log("Dislike Image")
+    e.target.src = "img/like.png"
+  } else {
+    console.log("Like the image")
+    e.target.src = "img/liked.png"
+  }
 }
