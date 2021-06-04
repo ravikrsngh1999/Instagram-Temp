@@ -1,3 +1,7 @@
+.clickable {
+	cursor: pointer;
+}
+
 .main {
 	display: block;
 }
@@ -80,7 +84,7 @@ section.profile {
 	padding-top: 15px;
 }
 
-span.active-nav-btn {
+span.active-nav-tab {
 	color: black;
 	border-top: 1px solid black;
 }
@@ -93,4 +97,65 @@ span.active-nav-btn {
 
 .img-wrapper > img {
 	width: 100%;
+}
+
+/* Modal Styling */
+
+.modal {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+
+	top: 0;
+	left: 0;
+	position: fixed;
+
+	z-index: 100;
+
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-content {
+	background-color: white;
+}
+
+.close-modal-btn {
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	top: 0;
+	right: 20px;
+	font-weight: 300;
+}
+
+.post-content img {
+	width: auto;
+}
+
+.post-container {
+	margin-bottom: 0;
+	display: flex;
+	border: none;
+	height: 500px;
+}
+
+.details-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.details-container .post-header {
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.action-container {
+	display: block;
+	margin-top: auto;
+}
+
+.button-container {
+	margin-bottom: 10px;
+	display: flex;
 }
