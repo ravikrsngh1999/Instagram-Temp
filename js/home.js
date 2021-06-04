@@ -21,9 +21,9 @@ function like(e) {
 	}
 }
 
-document.getElementById('profile-btn').addEventListener('click', showmenu);
+document.getElementById('profile-btn').addEventListener('click', showMenu);
 
-function showmenu() {
+function showMenu() {
 	var s = document.getElementById('menu-box').style.display;
 	if (s.includes('block')) {
 		document.getElementById('menu-box').style.display = 'none';
