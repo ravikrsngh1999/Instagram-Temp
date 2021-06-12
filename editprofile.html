@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Instagram</title>
+		<link rel="stylesheet" href="css/home.css" />
+		<link rel="stylesheet" href="css/profile.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Lato:wght@100;300;400;700;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="modal">
+			<span class="close-modal-btn clickable">&times; </span>
+			<div class="modal-content">
+				<div class="post-container">
+					<div class="post-content">
+						<img src="https://source.unsplash.com/random/500x500" alt="" />
+					</div>
+					<div class="details-container">
+						<div class="post-header">
+							<a href="#">
+								<img
+									src="https://source.unsplash.com/random/300x300?sig=2"
+									alt=""
+								/>
+								<span>ayuushh._.7</span>
+							</a>
+
+							<button type="button" name="button">
+								<img src="img/more.png" alt="" />
+							</button>
+						</div>
+						<div class="likes-comments">
+							<p><a href="">ravikrsngh.in</a>Caption goes here.</p>
+							<p><a href="">ravikrsngh.in</a>Comment goes here.</p>
+						</div>
+						<div class="action-container">
+							<div class="button-container">
+								<button type="button" name="button" class="like-btn">
+									<img src="img/like.png" alt="" />
+								</button>
+								<button type="button" name="button">
+									<img src="img/comment.png" alt="" />
+								</button>
+								<button type="button" name="button">
+									<img src="img/share.png" alt="" />
+								</button>
+								<button type="button" name="button">
+									<img src="img/bookmark.png" alt="" />
+								</button>
+							</div>
+							<span>120 likes</span>
+						</div>
+						<form class="comment-form" action="index.html" method="post">
+							<input type="text" name="" value="" placeholder="Add Comments" />
+							<button type="submit" name="button">Post</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<header>
+			<div class="header-box">
+				<a href="#">Instagram</a>
+
+				<input type="search" name="" value="" placeholder="Search" />
+				<div class="header-btns">
+					<!-- <a href="home.html"> <img src="img/home.png" alt=""></a> -->
+					<button type="button"><img src="img/home.png" alt="" /></button>
+					<button type="button"><img src="img/add.png" alt="" /></button>
+					<button type="button">
+						<img
+							src="https://source.unsplash.com/random/300x300?sig=2"
+							alt=""
+							id="profile-btn"
+						/>
+					</button>
+
+				</div>
+			</div>
+		</header>
+
+		<div class="main">
+			<section class="profile">
+				<div class="profile-img-container">
+					<img
+						src="https:source.unsplash.com/random/300x300?sig=2"
+						alt=""
+						width="150px"
+						height="150px"
+					/>
+					<form method="post">
+						<label for="editprofilepic" style="border:1px solid black;padding:5px 15px;">Edit</label>
+						<input type="file" name="file" value="" id="editprofilepic" style="height:0;width:0;opacity:0">
+
+					</form>
+				</div>
+				<form class="profile-info-container">
+					<div class="row-1">
+						<input type="text" name="" value="ayuushh._.7" style="padding:9px;">
+
+						<button class="clickable">Go Back</button>
+						<img
+							src="img/settings.png"
+							alt=""
+							width="25px"
+							height="25px"
+							class="clickable"
+						/>
+					</div>
+					<div class="row-2">
+						<h6><span>32</span> posts</h6>
+						<h6><span>500</span> followers</h6>
+						<h6><span>300</span> following</h6>
+					</div>
+					<div class="row-3">
+						<input type="text" name="" value="Ayush Seth" style="padding:9px;width:80%;">
+						<textarea name="name" rows="8"  style="padding:9px;width:80%;">Initial Bio</textarea>
+					</div>
+					<button type="submit" name="button" style="background-color:#0095C3;color:white;padding:9px;width:100px;border-radius:3px;">Save</button>
+				</form>
+			</section>
+
+			<section class="posts">
+				<nav class="post-navbar">
+					<span class="nav-tab active-nav-tab clickable">Posts</span>
+					<span class="nav-tab clickable">Saved</span>
+				</nav>
+
+				<div class="img-grid">
+					<div class="img-wrapper clickable" style="position:relative;">
+						<img
+							src="https://source.unsplash.com/random/300x300?sig=3"
+							alt=""
+						/>
+						<button type="button" name="button" style="position:absolute;top:10px;left:10px;padding:5px;background-color:rgba(255,255,255,0.5)">Delete</button>
+					</div>
+
+					<div class="img-wrapper clickable" style="position:relative;">
+						<img
+							src="https://source.unsplash.com/random/300x300?sig=3"
+							alt=""
+						/>
+						<button type="button" name="button" style="position:absolute;top:10px;left:10px;padding:5px;background-color:rgba(255,255,255,0.5)">Delete</button>
+					</div>
+					<div class="img-wrapper clickable" style="position:relative;">
+						<img
+							src="https://source.unsplash.com/random/300x300?sig=3"
+							alt=""
+						/>
+						<button type="button" name="button" style="position:absolute;top:10px;left:10px;padding:5px;background-color:rgba(255,255,255,0.5)">Delete</button>
+					</div>
+					<div class="img-wrapper clickable" style="position:relative;">
+						<img
+							src="https://source.unsplash.com/random/300x300?sig=3"
+							alt=""
+						/>
+						<button type="button" name="button" style="position:absolute;top:10px;left:10px;padding:5px;background-color:rgba(255,255,255,0.5)">Delete</button>
+					</div>
+					<div class="img-wrapper clickable" style="position:relative;">
+						<img
+							src="https://source.unsplash.com/random/300x300?sig=3"
+							alt=""
+						/>
+						<button type="button" name="button" style="position:absolute;top:10px;left:10px;padding:5px;background-color:rgba(255,255,255,0.5)">Delete</button>
+					</div>
+					<div class="img-wrapper clickable" style="position:relative;">
+						<img
+							src="https://source.unsplash.com/random/300x300?sig=3"
+							alt=""
+						/>
+						<button type="button" name="button" style="position:absolute;top:10px;left:10px;padding:5px;background-color:rgba(255,255,255,0.5)">Delete</button>
+					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<script src="js/profile.js"></script>
+		<script src="js/home.js"></script>
+	</body>
+</html>
